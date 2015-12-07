@@ -1,8 +1,28 @@
-@charset 'utf-8'
+@charset 'utf-8';
 
-nav.navbar-default{
+.blue{
 
-	background-color: #006385;
-	color: #fff;
-	
+	background-color: #006385 !important;
+	color: #fff !important;
+
+}
+
+nav li.active{
+	background-color: #00506B !important; 
+}
+
+nav a{
+	/*background-color: #00506B !important; */
+	color: #fff !important;
+}
+span.logo{
+	font-weight: 600;
+    font-family: helvetika neue;
+    vertical-align: bottom;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+i.logoi{
+	font-size: 20px;
 }
